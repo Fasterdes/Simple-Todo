@@ -33,6 +33,7 @@ function inputTodo() {
         list.parentNode.removeChild(list)
     }
 
+    document.getElementById('txtString').value = ''
     parentList.appendChild(list, btnRemove);
     list.appendChild(btnRemove)
 }
