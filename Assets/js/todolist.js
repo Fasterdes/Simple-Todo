@@ -9,6 +9,7 @@ const parentList = document.getElementById('todoList');
 function inputTodo() {
 
     const txtString = document.getElementById('txtString').value ;
+    const txtEmpty = document.getElementById('txtString').value = "" ; 
     const list = document.createElement('li');
     const btnRemove = document.createElement('input')
     btnRemove.setAttribute('type', 'button');
